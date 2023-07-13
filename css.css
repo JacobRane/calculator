@@ -40,4 +40,25 @@ body {
     width: 47%;
     border: 2px solid rgb(36, 36, 36);
     border-radius: 5px;
+    font-size: large;
 }
+
+.clear {
+    background-color: rgb(253, 100, 100);
+}
+.clear:hover {
+    background-color: rgb(211, 84, 84);
+}
+.clear:active {
+    background-color: rgb(136, 53, 53);
+}
+.backspace {
+    background-color: rgb(139, 139, 139);
+}
+.backspace:hover {
+    background-color: rgb(114, 114, 114);     
+}
+.backspace:active {
+    background-color: rgb(75, 75, 75);    
+}
+
