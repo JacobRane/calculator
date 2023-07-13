@@ -40,8 +40,8 @@ body {
     padding: 0;
     margin: 0;
     width: 47%;
-    border: 2px solid rgb(36, 36, 36);
-    border-radius: 5px;
+    border: 0px solid rgb(36, 36, 36);
+    border-radius: 3px;
     font-size: large;
 }
 
@@ -50,20 +50,20 @@ body {
     color: white;
 }
 .clear:hover {
-    background-color: rgb(211, 84, 84);
+    background-color: rgb(163, 37, 37);
 }
 .clear:active {
-    background-color: rgb(136, 53, 53);
+    background-color: rgb(131, 29, 29);
 }
 .backspace {
     background-color: rgb(46, 43, 177);
     color: white;
 }
 .backspace:hover {
-    background-color: rgb(114, 114, 114);     
+    background-color: rgb(36, 34, 141);     
 }
 .backspace:active {
-    background-color: rgb(75, 75, 75);    
+    background-color: rgb(26, 24, 102);    
 }
 
 .buttons {
@@ -83,18 +83,22 @@ body {
     margin: 0;
     padding: 0;
     border: 0px solid rgb(36, 36, 36);
-    border-radius: 0px;
+    border-radius: 3px;
     font-size: larger;
     background-color: rgb(56, 56, 56);
     color: white;
 }
 .buttons button:hover {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(40, 40, 40);
 }
 .buttons button:active {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(27, 27, 27);
 }
-img {
+.btnLink img {
     width: 50%;
     height: 100%;
+}
+.btnLink a {
+    height: 100%;
+    width: 100%;
 }
